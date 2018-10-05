@@ -3,4 +3,4 @@
   roles:
     - schalla.aapche
   tasks:
-    - git: repo=https://github.com/demoglot/html-samples-food.git dest=/var/ww/html
+    - git: repo=https://github.com/demoglot/html-samples-doctor.git dest=/var/ww/html
