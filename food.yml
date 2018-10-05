@@ -1,0 +1,6 @@
+---
+- hosts: 192.168.60.102
+  roles:
+    - schalla.aapche
+  tasks:
+    - git: repo=https://github.com/demoglot/html-samples-food.git dest=/var/ww/html
